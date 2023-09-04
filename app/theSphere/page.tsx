@@ -4,7 +4,7 @@ import TextLink from "../textLink"
 export default function() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center mx-auto w-[1000px] gap-2">
+      <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Mix utility for The Sphere, Las Vegas</h1>
         <TextLink href="/">Return to main page</TextLink>
       </div>

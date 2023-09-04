@@ -155,11 +155,11 @@ function Projects() {
         <ProjectCard href="/platformingGame" src="/ppHop.jpg" alt="">
           <p className="text-center">Extremely difficult 2D platforming game</p>
         </ProjectCard>
-        <ProjectCard href="/" src="/.jpg" alt="">
-          <p className="text-center">Experiments involving the classic game<br/> Super Smash Bros. Melee</p>
+        <ProjectCard href="/cryptoBot" src="/cryptoChart.jpg" alt="">
+          <p className="text-center">Functioning crypto arbitrage bot</p>
         </ProjectCard>
         <ProjectCard href="/" src="/.jpg" alt="">
-          <p className="text-center">Functioning crypto arbitrage bot and<br/> other related experiments</p>
+          <p className="text-center">Experiments involving the classic game<br/> Super Smash Bros. Melee</p>
         </ProjectCard>
       </div>
     </div>
