@@ -1,26 +1,15 @@
-"use client"
-
-import { useRouter } from "next/navigation"
-import Link from "next/link";
 import Image from "next/image";
-
-function TextLink({ children, href }: any) {
-  return (
-    <Link className="underline text-orange-400" href={href}>{children}</Link>
-  )
-}
+import TextLink from "../textLink"
 
 export default function() {
-  const router = useRouter()
-
   return (
     <>
       <div className="flex flex-col justify-center items-center mx-auto w-[1000px] gap-2">
-        <h1 className="font-medium text-4xl">Mix utility for The Sphere, Las Vegas</h1>
-        <button className="underline text-orange-400" onClick={() => router.back()}>Return to main page</button>
+        <h1 className="text-center font-medium text-4xl">Mix utility for The Sphere, Las Vegas</h1>
+        <TextLink href="/">Return to main page</TextLink>
       </div>
       <div className="bg-zinc-800 p-8">
-        <p className="max-w-[36rem] mx-auto">
+        <p className="max-w-[36rem] mx-auto font-light">
           This project was contracted by the business VisibleSound, a consultant of the Madison Square Garden Company.<br/><br/>
 
           <TextLink href="https://www.thespherevegas.com">The Sphere</TextLink> is a venue in Las Vegas that utilizes cutting edge beam forming speaker technology.<br/><br/>

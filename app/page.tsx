@@ -23,13 +23,12 @@ function TopInfo() {
 function Intro() {
   return (
     <div className="flex justify-between items-center mx-auto w-[1000px] gap-4">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-6">
         <span className="font-medium text-4xl">This is my tag line.</span>
-        <p className="flex font-extralight w-[32rem]">
-          My name is Corey Lehman. I am a software engineer who has a
-          passion for problem solving and learning new things.
-        </p>
-        <p className="flex font-extralight w-[32rem]">
+        <p className="flex font-light w-[32rem]">
+          My name is Corey Lehman. I am a software engineer and composer who has a
+          passion for problem solving and learning new things.<br/><br/>
+
           I have experience using a variety of programming languages to achieve my goals,
           and I would be happy to work with you to achieve yours.
         </p>
@@ -101,7 +100,7 @@ function About() {
       <div className="flex mx-auto max-w-[1000px] gap-6">
         <div className="w-1/2">
           <span className="font-bold text-lg">Formal Education</span>
-          <p className="font-extralight">
+          <p className="font-light">
             Upon graduating high school, I immediately began studying Mechanical Engineering at UCF,
             and after two years, I completed one semester of Electrical Engineering.<br/><br/>
             I had a high GPA throughout my studies, and was the only student in the entire
@@ -110,7 +109,7 @@ function About() {
         </div>
         <div className="w-1/2">
           <span className="font-bold text-lg">Why I program</span>
-          <p className="font-extralight">
+          <p className="font-light">
             I decided not to finish my studies at UCF, because at the time I was interested in pursuing music production.<br/><br/>
             It turns out, however, that computer programming is quite useful in this domain,
             and my Intro to C class at UCF gave me the fundamentals I needed to start. I have been learning ever since.
@@ -147,17 +146,17 @@ function Projects() {
         <ProjectCard href="/theSphere" src="/theSphere.jpg" alt="The Sphere">
           <p className="text-center">Mix utility for The Sphere, Las Vegas</p>
         </ProjectCard>
-        <ProjectCard href="/" src="/.jpg" alt="">
+        <ProjectCard href="/guiFramework" src="/guiDemo.jpg" alt="Gui Demo">
           <p className="text-center">Custom low level GUI framework</p>
         </ProjectCard>
-        <ProjectCard href="/" src="/.jpg" alt="">
+        <ProjectCard href="/reaperUtilities" src="/reaper.jpg" alt="">
           <p className="text-center">Compiled utilities, plugins, and<br/> Lua scripts for the Reaper DAW</p>
+        </ProjectCard>
+        <ProjectCard href="/platformingGame" src="/ppHop.jpg" alt="">
+          <p className="text-center">Extremely difficult 2D platforming game</p>
         </ProjectCard>
         <ProjectCard href="/" src="/.jpg" alt="">
           <p className="text-center">Experiments involving the classic game<br/> Super Smash Bros. Melee</p>
-        </ProjectCard>
-        <ProjectCard href="/" src="/.jpg" alt="">
-          <p className="text-center">Extremely difficult 2D platforming game</p>
         </ProjectCard>
         <ProjectCard href="/" src="/.jpg" alt="">
           <p className="text-center">Functioning crypto arbitrage bot and<br/> other related experiments</p>
