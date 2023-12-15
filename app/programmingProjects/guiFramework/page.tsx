@@ -30,7 +30,7 @@ export default function GuiFramework() {
           The source code for this specific demo is available <TextLink href="https://github.com/Alkamist/nimgui">here</TextLink>.
         </p>
       </div>
-      <iframe className="mx-auto rounded" src="./guiExample.html" width="1050" height="750"></iframe>
+      <iframe className="mx-auto rounded" src="../guiExample.html" width="1050" height="750"></iframe>
     </>
   )
 }

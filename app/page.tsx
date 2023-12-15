@@ -101,9 +101,12 @@ function ProgrammingLanguages() {
         <Link href="https://react.dev"><Tooltip tooltip="React">
           <Image src="/react.svg" alt="React Logo" width="35" height="35" />
         </Tooltip></Link>
-        <Link href="https://svelte.dev"><Tooltip tooltip="Svelte">
-          <Image src="/svelte.svg" alt="Svelte Logo" width="28" height="28" />
+        <Link href="https://nextjs.org/"><Tooltip tooltip="Next.js">
+          <Image src="/nextJs.svg" alt="Next Js Logo" width="35" height="35" />
         </Tooltip></Link>
+        {/* <Link href="https://svelte.dev"><Tooltip tooltip="Svelte">
+          <Image src="/svelte.svg" alt="Svelte Logo" width="28" height="28" />
+        </Tooltip></Link> */}
       </div>
     </div>
   )

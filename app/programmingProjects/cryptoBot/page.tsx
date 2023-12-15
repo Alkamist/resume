@@ -33,7 +33,7 @@ export default function() {
           that their transactions are prioritized whenever possible.<br/><br/>
 
           What this means is that even though it is possible to create successful arbitrage transactions, if you are not
-          colluding with these mining pools your transactions will statistically be beaten enough of the time that you
+          colluding with these mining pools, your transactions will statistically be beaten enough of the time that you
           will not be profitable in the long run due to accumulating transaction fees when losing to other bots.<br/><br/>
 
           A short write up of calculating the formula can be seen below:

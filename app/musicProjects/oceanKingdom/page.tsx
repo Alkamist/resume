@@ -9,10 +9,12 @@ export default function() {
       </div>
       <div className="bg-zinc-800 p-8">
         <p className="max-w-[36rem] mx-auto font-light">
-          Chimelong Ocean Kingdom is a popular theme park located in China. In the park, there is a water show featuring
-          a wide variety of technology including jetskis, drones, water jetpacks, lightshows, fireworks, and more.<br/><br/>
+          Chimelong Ocean Kingdom is a popular theme park located in China.<br/><br/>
 
-          In 2023, they entirely revamped the show and contracted an entirely new 15+ minute long original soundtrack.
+          In the park, there is a water show featuring a wide variety of technology, including jetskis, drones, water jetpacks, lightshows, fireworks, and more.<br/><br/>
+
+          In 2023, they entirely revamped the show and contracted an entirely new 15+ minute long original soundtrack.<br/><br/>
+
           This soundtrack was created by me and VisibleSound in a very short two week time period, as they had a
           tight deadline to reach to get the show up and running.
         </p>

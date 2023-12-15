@@ -12,7 +12,8 @@ export default function() {
           <TextLink href="https://www.illuminarium.com">Illuminarium Experiences</TextLink> is a cutting edge venue
           that features beam forming speakers, haptic feedback, strobe effects, and video projection.<br/><br/>
 
-          There are a number a shows that can be attended at the venue, and one of them is called <TextLink href="https://www.illuminarium.com/atlanta-experiences/space-after-dark">Space After Dark</TextLink>.
+          There are a number a shows that can be attended at the venue, and one of them is called <TextLink href="https://www.illuminarium.com/atlanta-experiences/space-after-dark">Space After Dark</TextLink>.<br/><br/>
+
           With VisibleSound, I was contracted to write a piece of music that fits into a portion of the show.
         </p>
       </div>
