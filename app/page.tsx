@@ -9,7 +9,7 @@ function TopInfo() {
     <div className="flex justify-between items-center mx-auto w-[1000px] gap-4">
       <div className="flex flex-col">
         <h1 className="font-medium text-xl">Corey Lehman</h1>
-        <h2 className="font-extralight">Software Engineer based in Orlando, Florida</h2>
+        <h2 className="font-extralight">Composer and Software Engineer based in Orlando, Florida</h2>
       </div>
       <div className="pr-80">
         <Link href="https://github.com/Alkamist">
@@ -26,11 +26,11 @@ function Intro() {
       <div className="flex flex-col gap-6">
         <span className="font-medium text-4xl">This is my tag line.</span>
         <p className="flex font-light w-[32rem]">
-          My name is Corey Lehman. I am a software engineer and composer who has a
+          My name is Corey Lehman. I am a composer and software engineer who has a
           passion for problem solving and learning new things.<br/><br/>
 
-          I have experience using a variety of programming languages to achieve my goals,
-          and I would be happy to work with you to achieve yours.
+          I am proficient in music production, sound design, as well as programming with
+          a variety of programming languages and frameworks.
         </p>
       </div>
       <div className="bg-zinc-500 w-48 h-64 mr-24 rounded" />
@@ -54,7 +54,7 @@ function Tooltip({ children, tooltip }: any) {
 function ProgrammingLanguages() {
   return (
     <div className="flex flex-col mx-auto w-[1000px] gap-10">
-      <span className="font-medium text-lg">Programming languages I have used:</span>
+      <span className="font-medium text-lg">Programming languages and frameworks I am proficient with:</span>
       <div className="grid grid-cols-4 gap-8 w-[32rem]">
         <Link href="https://odin-lang.org"><Tooltip tooltip="Odin">
           <svg className="fill-current" width="35" height="35" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M90.0761566,452.8389893L344.8582764,11.5241251C704.1462402,180.816803,420.0758972,682.5715332,90.0761566,452.8389893z M362.9530334,70.4307251L149.9002991,438.6415405C383.2495728,563.7615356,600.7075806,239.4835052,362.9530334,70.4307251z M301.1986389,3.2728307L60.3563766,423.2029419C-87.0823135,228.6764832,51.8651428-32.2359543,301.1986389,3.2728307z M224.7775421,46.5009079c0,0-89.5439301,12.350914-148.2106323,98.0351791c-59.6329041,87.0954285-15.4386024,189.8948517-15.4386024,189.8948517L224.7775421,46.5009079z"/></svg>
@@ -86,8 +86,23 @@ function ProgrammingLanguages() {
         <Link href="https://haxe.org"><Tooltip tooltip="Haxe">
           <Image src="/haxe.svg" alt="Haxe Logo" width="35" height="35" />
         </Tooltip></Link>
-        <Link href="https://godotengine.org"><Tooltip tooltip="GDScript (Godot)">
+        <Link href="https://godotengine.org"><Tooltip tooltip="Godot">
           <Image src="/godot.svg" alt="Godot Logo" width="35" height="35" />
+        </Tooltip></Link>
+        <Link href="https://www.unrealengine.com"><Tooltip tooltip="Unreal Engine">
+          <svg className="fill-current" width="35" height="35" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 0c-8.766 0-15.865 7.161-15.865 16s7.099 16 15.865 16c8.76 0 15.865-7.161 15.865-16s-7.104-16-15.87-16zM16 0.703c4.047 0 7.859 1.594 10.724 4.479 2.859 2.875 4.453 6.766 4.443 10.818 0 4.083-1.578 7.927-4.443 10.818-2.828 2.87-6.693 4.484-10.724 4.479-4.031 0.005-7.896-1.609-10.724-4.479-2.859-2.875-4.458-6.766-4.448-10.818 0-4.083 1.583-7.927 4.443-10.818 2.828-2.875 6.698-4.49 10.729-4.479zM15.203 6.333c-2.583 0.693-4.974 2.021-8.161 5.677s-2.583 6.677-2.583 6.677c0 0 0.88-2.078 2.995-4.266 1.005-1.036 1.75-1.385 2.266-1.385 0.458-0.026 0.844 0.344 0.844 0.802v7.422c0 0.734-0.474 0.896-0.911 0.885-0.37-0.005-0.714-0.135-0.714-0.135 2.172 3.156 7.37 3.599 7.37 3.599l2.281-2.438 0.052 0.047 2.089 1.781c3.823-2.271 5.667-6.479 5.667-6.479-1.708 1.802-2.792 2.224-3.438 2.224-0.573-0.005-0.797-0.339-0.797-0.339-0.031-0.156-0.083-2.417-0.104-4.677-0.021-2.339 0-4.682 0.115-4.688 0.661-1.24 2.766-3.74 2.766-3.74-3.932 0.776-6.073 3.354-6.073 3.354-0.635-0.5-1.927-0.417-1.927-0.417 0.604 0.333 1.208 1.302 1.208 2.104v7.896c0 0-1.318 1.161-2.333 1.161-0.604 0-0.974-0.328-1.177-0.599-0.078-0.104-0.146-0.219-0.198-0.344v-9.75c-0.141 0.104-0.313 0.161-0.484 0.167-0.219 0-0.443-0.109-0.594-0.427-0.115-0.24-0.188-0.599-0.188-1.125 0-1.797 2.031-2.99 2.031-2.99z"/></svg>
+        </Tooltip></Link>
+        <Link href="https://unity.com"><Tooltip tooltip="Unity">
+          <svg className="fill-current" width="35" height="35" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M63.22 25.42L56.387 0 30.87 6.814l-3.775 6.637-7.647-.055L.78 32.005l18.67 18.604 7.658-.057 3.78 6.637 25.5 6.81 6.832-25.418L59.34 32zm-16-15.9L36.036 28.86H13.644l14.094-14.34zM36.036 35.145l11.196 19.338-19.507-5.012L13.63 35.15h22.392zm5.468-3.14L52.7 12.665l5.413 19.34L52.7 51.34z"/></svg>
+        </Tooltip></Link>
+        <Link href="https://soliditylang.org"><Tooltip tooltip="Solidity">
+          <Image src="/solidity2.svg" alt="Solidity Logo" width="35" height="35" />
+        </Tooltip></Link>
+        <Link href="https://react.dev"><Tooltip tooltip="React">
+          <Image src="/react.svg" alt="React Logo" width="35" height="35" />
+        </Tooltip></Link>
+        <Link href="https://svelte.dev"><Tooltip tooltip="Svelte">
+          <Image src="/svelte.svg" alt="Svelte Logo" width="28" height="28" />
         </Tooltip></Link>
       </div>
     </div>
@@ -108,11 +123,12 @@ function About() {
           </p>
         </div>
         <div className="w-1/2">
-          <span className="font-bold text-lg">Why I program</span>
+          <span className="font-bold text-lg">Experience</span>
           <p className="font-light">
-            I decided not to finish my studies at UCF, because at the time I was interested in pursuing music production.<br/><br/>
-            It turns out, however, that computer programming is quite useful in this domain,
-            and my Intro to C class at UCF gave me the fundamentals I needed to start. I have been learning ever since.
+            After attending UCF, I began studying music production and programming on my own.<br/><br/>
+
+            This eventually led to me working with VisibleSound on a number of contracted projects.
+            These projects have involved composition, sound design, as well as programming.<br/><br/>
           </p>
         </div>
       </div>
@@ -137,32 +153,40 @@ function ProjectCard({ children, href, src, alt }: any) {
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <span className="text-xl text-center w-[52rem] mt-4">
-        Over the years, I have worked on a number of projects,<br/>
-        some contracted, some personal, and others recreational:
-      </span>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-24 mt-24">
-        <ProjectCard href="/theSphere" src="/theSphere.jpg" alt="The Sphere">
-          <p className="text-center">Mix utility for The Sphere, Las Vegas</p>
-        </ProjectCard>
-        <ProjectCard href="/guiFramework" src="/guiDemo.jpg" alt="Gui Demo">
-          <p className="text-center">Custom low level GUI framework</p>
-        </ProjectCard>
-        <ProjectCard href="/reaperUtilities" src="/reaper.jpg" alt="">
-          <p className="text-center">Compiled utilities, plugins, and<br/> Lua scripts for the Reaper DAW</p>
-        </ProjectCard>
-        <ProjectCard href="/platformingGame" src="/ppHop.jpg" alt="">
-          <p className="text-center">Extremely difficult 2D platforming game</p>
-        </ProjectCard>
-        <ProjectCard href="/cryptoBot" src="/cryptoChart.jpg" alt="">
-          <p className="text-center">Functioning crypto arbitrage bot</p>
-        </ProjectCard>
-        <ProjectCard href="/" src="/.jpg" alt="">
-          <p className="text-center">Experiments involving the classic game<br/> Super Smash Bros. Melee</p>
-        </ProjectCard>
+    <>
+      <h2 className="text-xl text-center bg-zinc-800">Music Projects</h2>
+      <div className="flex flex-col justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-24">
+          <ProjectCard href="/theSphere" src="/theSphere.jpg" alt="The Sphere">
+            <p className="text-center">Mix utility for The Sphere, Las Vegas</p>
+          </ProjectCard>
+        </div>
       </div>
-    </div>
+
+      <h2 className="text-xl text-center bg-zinc-800">Programming Projects</h2>
+      <div className="flex flex-col justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-24">
+          <ProjectCard href="/theSphere" src="/theSphere.jpg" alt="The Sphere">
+            <p className="text-center">Mix utility for The Sphere, Las Vegas</p>
+          </ProjectCard>
+          <ProjectCard href="/guiFramework" src="/guiDemo.jpg" alt="Gui Demo">
+            <p className="text-center">Custom low level GUI framework</p>
+          </ProjectCard>
+          <ProjectCard href="/reaperUtilities" src="/reaper.jpg" alt="">
+            <p className="text-center">Compiled utilities, plugins, and<br/> Lua scripts for the Reaper DAW</p>
+          </ProjectCard>
+          <ProjectCard href="/platformingGame" src="/ppHop.jpg" alt="">
+            <p className="text-center">Extremely difficult 2D platforming game</p>
+          </ProjectCard>
+          <ProjectCard href="/cryptoBot" src="/cryptoChart.jpg" alt="">
+            <p className="text-center">Functioning crypto arbitrage bot</p>
+          </ProjectCard>
+          <ProjectCard href="/meleeExperiments" src="/melee2.jpg" alt="">
+            <p className="text-center">Experiments involving the classic game<br/> Super Smash Bros. Melee</p>
+          </ProjectCard>
+        </div>
+      </div>
+    </>
   )
 }
 
