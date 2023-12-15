@@ -29,8 +29,8 @@ function Intro() {
           My name is Corey Lehman. I am a composer and software engineer who has a
           passion for problem solving and learning new things.<br/><br/>
 
-          I am proficient in music production, sound design, as well as programming with
-          a variety of programming languages and frameworks.
+          I am proficient in music production, sound design, as well as programming using
+          a variety of languages and frameworks.
         </p>
       </div>
       <div className="bg-zinc-500 w-48 h-64 mr-24 rounded" />
@@ -116,8 +116,8 @@ function About() {
         <div className="w-1/2">
           <span className="font-bold text-lg">Formal Education</span>
           <p className="font-light">
-            Upon graduating high school, I immediately began studying Mechanical Engineering at UCF,
-            and after two years, I completed one semester of Electrical Engineering.<br/><br/>
+            Upon graduating high school, I began studying Mechanical Engineering at UCF,
+            and eventually studied Electrical Engineering.<br/><br/>
             I had a high GPA throughout my studies, and was the only student in the entire
             university to get a 100% score on my Calculus 1 final exam for that professor's class.
           </p>
@@ -125,10 +125,10 @@ function About() {
         <div className="w-1/2">
           <span className="font-bold text-lg">Experience</span>
           <p className="font-light">
-            After attending UCF, I began studying music production and programming on my own.<br/><br/>
+            After attending UCF, I decided to study music production and programming on my own.<br/><br/>
 
             This eventually led to me working with VisibleSound on a number of contracted projects.
-            These projects have involved composition, sound design, as well as programming.<br/><br/>
+            These projects have involved musical composition, sound design, as well as programming.<br/><br/>
           </p>
         </div>
       </div>
@@ -157,8 +157,23 @@ function Projects() {
       <h2 className="text-xl text-center bg-zinc-800">Music Projects</h2>
       <div className="flex flex-col justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-24">
-          <ProjectCard href="/theSphere" src="/theSphere.jpg" alt="The Sphere">
-            <p className="text-center">Mix utility for The Sphere, Las Vegas</p>
+          <ProjectCard href="/musicProjects/longLostTales" src="/longLostTales.jpg" alt="Long Lost Tales">
+            <p className="text-center">Long Lost Tales</p>
+          </ProjectCard>
+          <ProjectCard href="/musicProjects/villainCon" src="/villainCon.jpg" alt="Villain Con">
+            <p className="text-center">Villain-Con Minion Blast at<br/> Universal Studios Orlando</p>
+          </ProjectCard>
+          <ProjectCard href="/musicProjects/villainCon" src="/" alt="">
+            <p className="text-center">Background Music for<br/> Universal Studios Orlando</p>
+          </ProjectCard>
+          <ProjectCard href="/musicProjects/oceanKingdom" src="/oceanKingdom.jpg" alt="Ocean Kingdom">
+            <p className="text-center">Chimelong Ocean Kingdom<br/> Lagoon Spectacular</p>
+          </ProjectCard>
+          <ProjectCard href="/musicProjects/illuminariumSpace" src="/illuminariumSpace.jpg" alt="Illuminarium Space">
+            <p className="text-center">Illuminarium Space Show</p>
+          </ProjectCard>
+          <ProjectCard href="/musicProjects/characterz" src="/characterz.jpg" alt="Characterz">
+            <p className="text-center">Covers of The Moody Blues<br/> for the Characterz movie</p>
           </ProjectCard>
         </div>
       </div>
@@ -166,22 +181,22 @@ function Projects() {
       <h2 className="text-xl text-center bg-zinc-800">Programming Projects</h2>
       <div className="flex flex-col justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-24">
-          <ProjectCard href="/theSphere" src="/theSphere.jpg" alt="The Sphere">
+          <ProjectCard href="/programmingProjects/theSphere" src="/theSphere.jpg" alt="The Sphere">
             <p className="text-center">Mix utility for The Sphere, Las Vegas</p>
           </ProjectCard>
-          <ProjectCard href="/guiFramework" src="/guiDemo.jpg" alt="Gui Demo">
+          <ProjectCard href="/programmingProjects/guiFramework" src="/guiDemo.jpg" alt="Gui Demo">
             <p className="text-center">Custom low level GUI framework</p>
           </ProjectCard>
-          <ProjectCard href="/reaperUtilities" src="/reaper.jpg" alt="">
+          <ProjectCard href="/programmingProjects/reaperUtilities" src="/reaper.jpg" alt="Reaper Utilities">
             <p className="text-center">Compiled utilities, plugins, and<br/> Lua scripts for the Reaper DAW</p>
           </ProjectCard>
-          <ProjectCard href="/platformingGame" src="/ppHop.jpg" alt="">
+          <ProjectCard href="/programmingProjects/platformingGame" src="/ppHop.jpg" alt="Platforming Game">
             <p className="text-center">Extremely difficult 2D platforming game</p>
           </ProjectCard>
-          <ProjectCard href="/cryptoBot" src="/cryptoChart.jpg" alt="">
+          <ProjectCard href="/programmingProjects/cryptoBot" src="/cryptoChart.jpg" alt="Crypto Bot">
             <p className="text-center">Functioning crypto arbitrage bot</p>
           </ProjectCard>
-          <ProjectCard href="/meleeExperiments" src="/melee2.jpg" alt="">
+          <ProjectCard href="/programmingProjects/meleeExperiments" src="/melee.jpg" alt="Melee Experiments">
             <p className="text-center">Experiments involving the classic game<br/> Super Smash Bros. Melee</p>
           </ProjectCard>
         </div>

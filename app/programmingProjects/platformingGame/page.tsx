@@ -1,4 +1,4 @@
-import TextLink from "../textLink"
+import TextLink from "../../textLink"
 
 export default function GuiFramework() {
   return (
@@ -31,7 +31,7 @@ export default function GuiFramework() {
           The source code for this game is available <TextLink href="https://github.com/Alkamist/ppHop">here</TextLink>.
         </p>
       </div>
-      <iframe className="mx-auto rounded" src="./ppHop/index.html" width="1050" height="750"></iframe>
+      <iframe className="mx-auto rounded" src="../ppHop/index.html" width="1050" height="750"></iframe>
     </>
   )
 }

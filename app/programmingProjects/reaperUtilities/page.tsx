@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TextLink from "../textLink"
+import TextLink from "../../textLink"
 
 export default function() {
   return (
