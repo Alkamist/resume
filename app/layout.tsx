@@ -1,6 +1,7 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import { Montserrat } from "next/font/google"
+import { Providers } from "./providers"
 
 const montserrat = Montserrat({ subsets: ["latin"] })
 
@@ -15,11 +16,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={montserrat.className}>
-        <div className="flex flex-col gap-20 py-6">
-          {children}
-        </div>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
