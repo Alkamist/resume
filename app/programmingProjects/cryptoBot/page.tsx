@@ -2,13 +2,13 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <div className="flex flex-col gap-8 py-4">
+    <div className="flex flex-col gap-8 py-4 min-h-screen">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Functioning crypto arbitrage bot</h1>
         <TextLink href="/">Return to main page</TextLink>
       </div>
-      <div className="bg-zinc-800 p-8">
-        <p className="max-w-[36rem] mx-auto font-light">
+      <div className="bg-neutral-400 dark:bg-zinc-800 p-8">
+        <p className="max-w-[36rem] mx-auto font-normal">
           Cryptocurrency has always been something that is interesting to me, and after discussing the concept of
           arbitrage with some friends, I decided to try to write a crypto bot to do this automatically.<br/><br/>
 
@@ -39,7 +39,7 @@ export default function() {
           A short write up of calculating the formula can be seen below:
         </p>
       </div>
-      <p className="max-w-[48rem] mx-auto font-light p-4">
+      <p className="max-w-[48rem] mx-auto font-normal p-4">
         - The number after each variable represents which pool it belongs to in the sequence.<br/>
         - The prime (') after a variable denotes that it is the version after the liquidity has been altered by the trade.<br/>
         - a represents input liquidity.<br/>

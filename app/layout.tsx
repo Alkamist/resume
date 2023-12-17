@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={montserrat.className}>
-        <Providers>{children}</Providers>
+        <div className="text-black dark:text-white bg-neutral-300 dark:bg-[#18181b]">
+          <Providers>{children}</Providers>
+        </div>
       </body>
     </html>
   )

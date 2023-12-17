@@ -3,13 +3,13 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <div className="flex flex-col gap-8 py-4">
+    <div className="flex flex-col gap-8 py-4 min-h-screen">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Mix utility for The Sphere, Las Vegas</h1>
         <TextLink href="/">Return to main page</TextLink>
       </div>
-      <div className="bg-zinc-800 p-8">
-        <p className="max-w-[36rem] mx-auto font-light">
+      <div className="bg-neutral-400 dark:bg-zinc-800 p-8">
+        <p className="max-w-[36rem] mx-auto font-normal">
           This project was contracted by the business VisibleSound, a consultant of the Madison Square Garden Company.<br/><br/>
 
           <TextLink href="https://www.thespherevegas.com">The Sphere</TextLink> is a venue in Las Vegas that utilizes cutting edge beam forming speaker technology.<br/><br/>

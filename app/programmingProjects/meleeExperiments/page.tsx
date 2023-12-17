@@ -3,13 +3,13 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <div className="flex flex-col gap-8 py-4">
+    <div className="flex flex-col gap-8 py-4 min-h-screen">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Experiments involving the classic game<br/> Super Smash Bros. Melee</h1>
         <TextLink href="/">Return to main page</TextLink>
       </div>
-      <div className="bg-zinc-800 p-8">
-        <p className="max-w-[36rem] mx-auto font-light">
+      <div className="bg-neutral-400 dark:bg-zinc-800 p-8">
+        <p className="max-w-[36rem] mx-auto font-normal">
           One of my favorite video games of all time is Super Smash Bros. Melee.
           It is the second installment in the series, yet to this day maintains an active community.<br/><br/>
 
