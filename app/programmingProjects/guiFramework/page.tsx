@@ -1,8 +1,8 @@
 import TextLink from "../../textLink"
 
-export default function GuiFramework() {
+export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Custom low level GUI framework</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -25,12 +25,12 @@ export default function GuiFramework() {
           There should be four movable windows with text inside of them. There is a slider at the top of each window that controls the alignment of the text.
           Holding the control key while dragging the slider should lower the sensitivity for more precision.<br/><br/>
 
-          The demo probably only works properly on a Desktop computer, as it was mainly designed with that in mind.<br/><br/>
+          The demo only works properly on a Desktop computer, as it was mainly designed with that in mind, but mobile adaptation would not be impossible.<br/><br/>
 
           The source code for this specific demo is available <TextLink href="https://github.com/Alkamist/nimgui">here</TextLink>.
         </p>
       </div>
-      <iframe className="mx-auto rounded" src="../guiExample.html" width="1050" height="750"></iframe>
-    </>
+      <iframe className="mx-auto rounded w-screen max-w-[1050px]" src="../guiExample.html" width="1050" height="750"></iframe>
+    </div>
   )
 }

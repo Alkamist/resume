@@ -2,7 +2,7 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Covers of The Moody Blues<br/> for the Characterz movie</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -15,6 +15,6 @@ export default function() {
           With VisibleSound, I was contracted to produce covers of three Moody Blues songs for use in the film.
         </p>
       </div>
-    </>
+    </div>
   )
 }

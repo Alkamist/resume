@@ -3,7 +3,7 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Compiled utilities, plugins, and Lua scripts for the Reaper DAW</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -21,14 +21,14 @@ export default function() {
         </p>
       </div>
 
-      <h2 className="text-center bg-zinc-800 -mt-8">Zoom Tool</h2>
-      <p className="font-light mx-auto max-w-[36rem] -mt-8">
+      <h2 className="text-center bg-zinc-800">Zoom Tool</h2>
+      <p className="font-light mx-auto max-w-[36rem]">
         This script allows for using a single keybind to easily adjust the zoom level of the project.
       </p>
-      <Image className="flex rounded mx-auto -mt-8" src="/zoomToolDemo.gif" alt="Zoom Tool Demo" width="854" height="493" />
+      <Image className="flex rounded mx-auto" src="/zoomToolDemo.gif" alt="Zoom Tool Demo" width="854" height="493" />
 
-      <h2 className="text-center bg-zinc-800 -mt-8">Region Items</h2>
-      <p className="font-light mx-auto max-w-[36rem] -mt-8">
+      <h2 className="text-center bg-zinc-800">Region Items</h2>
+      <p className="font-light mx-auto max-w-[36rem]">
         This script enables the user to encompass a region of items within the bounds of a single item.
         A keybind can then be pressed to copy and paste the contents and automation bounded by that item
         into all other pooled instances.<br/><br/>
@@ -36,10 +36,10 @@ export default function() {
         Copies of the item can be stretched in time, and the pasted contents will obey that stretching,
         along with any tempo changes.
       </p>
-      <Image className="flex rounded mx-auto -mt-8" src="/regionItemDemo.gif" alt="Region Item Demo" width="854" height="493" />
+      <Image className="flex rounded mx-auto" src="/regionItemDemo.gif" alt="Region Item Demo" width="854" height="493" />
 
-      <h2 className="text-center bg-zinc-800 -mt-8">Pitch Correction</h2>
-      <p className="font-light mx-auto max-w-[36rem] -mt-8">
+      <h2 className="text-center bg-zinc-800">Pitch Correction</h2>
+      <p className="font-light mx-auto max-w-[36rem]">
         This is one of my most complicated scripts. Reaper allows Lua scripts to open a window and draw
         primitive shapes on it. By utilizing that functionality, I was able to build a pitch correction utility.<br/><br/>
 
@@ -53,14 +53,14 @@ export default function() {
 
         All of this is demonstrated in this demo video:
       </p>
-      <div className="flex -mt-8 mx-auto max-w-[1000px]">
+      <div className="flex mx-auto max-w-[1000px]">
         <video width="1920" height="1080" controls>
           <source src="/pitchCorrectionDemo.mp4" type="video/mp4" />
         </video>
       </div>
 
-      <h2 className="text-center bg-zinc-800 -mt-8">Track Groups</h2>
-      <p className="font-light mx-auto max-w-[36rem] -mt-8">
+      <h2 className="text-center bg-zinc-800">Track Groups</h2>
+      <p className="font-light mx-auto max-w-[36rem]">
         Reaper not only allows you to write Lua scripts, but also create compiled DLL extensions.
         After a while, I became experienced enough to make my own.<br/><br/>
 
@@ -82,7 +82,7 @@ export default function() {
 
         The source code is available <TextLink href="https://github.com/Alkamist/alkamist_extension">here</TextLink>.
       </p>
-      <Image className="flex rounded mx-auto -mt-8" src="/trackGroupsDemo.gif" alt="Track Groups Demo" width="854" height="493" />
-    </>
+      <Image className="flex rounded mx-auto" src="/trackGroupsDemo.gif" alt="Track Groups Demo" width="854" height="493" />
+    </div>
   )
 }

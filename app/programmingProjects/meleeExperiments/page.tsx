@@ -3,7 +3,7 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Experiments involving the classic game<br/> Super Smash Bros. Melee</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -37,6 +37,6 @@ export default function() {
           in a somewhat intelligent way. The code for this can be found <TextLink href="https://github.com/Alkamist/ssbm_gym_test">here</TextLink>.
         </p>
       </div>
-    </>
+    </div>
   )
 }

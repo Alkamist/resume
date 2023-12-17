@@ -2,7 +2,7 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Functioning crypto arbitrage bot</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -19,8 +19,8 @@ export default function() {
           different tokens. The bot would then detect if an opportunity existed to stabilize a large enough
           price discrepancy across multiple pools to generate a guaranteed profit.<br/><br/>
 
-          The formula to calculate whether or not an opportunity exists is non-trivial, and I could not find it anywhere,
-          so I ended up discovering it myself.<br/><br/>
+          The formula to calculate whether or not an opportunity exists and how much value to trade in response is non-trivial,
+          and I could not find it anywhere, so I ended up creating it myself.<br/><br/>
 
           A successful transaction of this bot can be seen <TextLink href="https://snowtrace.io/tx/0x33a587b3fd4fcde2d84bc52bfeacb11138b129b5956b1d59ab0170796a570407">here</TextLink>,
           and more successful transactions can be seen by following that wallet address.<br/><br/>
@@ -39,7 +39,7 @@ export default function() {
           A short write up of calculating the formula can be seen below:
         </p>
       </div>
-      <p className="max-w-[48rem] mx-auto font-light">
+      <p className="max-w-[48rem] mx-auto font-light p-4">
         - The number after each variable represents which pool it belongs to in the sequence.<br/>
         - The prime (') after a variable denotes that it is the version after the liquidity has been altered by the trade.<br/>
         - a represents input liquidity.<br/>
@@ -71,6 +71,6 @@ export default function() {
 
         x0 = (-a0 * a1^2 * c0 - sqrt(a0 * a1^3 * b0 * b1 * c0^3 * c1 + 2 * a0 * a1^2 * b0^2 * b1 * c0^3 * c1^2 + a0 * a1 * b0^3 * b1 * c0^3 * c1^3) - a0 * a1 * b0 * c0 * c1) / (a1^2 * c0^2 + 2 * a1 * b0 * c0^2 * c1 + b0^2 * c0^2 * c1^2)
       </p>
-    </>
+    </div>
   )
 }

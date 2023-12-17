@@ -2,7 +2,7 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Long Lost Tales</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -18,6 +18,6 @@ export default function() {
           The EP can be found on YouTube <TextLink href="https://www.youtube.com/watch?v=rGfL9Cex-VM&list=PL1OXSs0OIdMY9KI69yeYktn5oDvnauC_Q">here</TextLink>.
         </p>
       </div>
-    </>
+    </div>
   )
 }

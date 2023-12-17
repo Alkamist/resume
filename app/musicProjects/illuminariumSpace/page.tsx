@@ -2,7 +2,7 @@ import TextLink from "../../textLink"
 
 export default function() {
   return (
-    <>
+    <div className="flex flex-col gap-8 py-4">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Illuminarium Space Show</h1>
         <TextLink href="/">Return to main page</TextLink>
@@ -17,6 +17,6 @@ export default function() {
           With VisibleSound, I was contracted to write a piece of music that fits into a portion of the show.
         </p>
       </div>
-    </>
+    </div>
   )
 }

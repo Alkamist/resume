@@ -27,8 +27,8 @@ function Intro() {
           My name is Corey Lehman. I am a composer and software engineer who has a
           passion for problem solving and learning new things.<br/><br/>
 
-          I am proficient in music production, sound design, as well as programming using
-          a variety of languages and frameworks.
+          I am proficient in music production, sound design, as well as
+          software development using a variety of languages and frameworks.
         </p>
       </div>
       <div className="flex grow justify-center">
@@ -194,7 +194,7 @@ function Projects() {
         <ProjectCard href="/musicProjects/villainCon" src="/villainCon.jpg" alt="Villain Con">
           Villain-Con Minion Blast at<br/> Universal Studios Orlando
         </ProjectCard>
-        <ProjectCard href="/musicProjects/villainCon" src="/" alt="">
+        <ProjectCard href="/" src="/" alt="">
           Background Music for<br/> Universal Studios Orlando
         </ProjectCard>
         <ProjectCard href="/musicProjects/oceanKingdom" src="/oceanKingdom.jpg" alt="Ocean Kingdom">
