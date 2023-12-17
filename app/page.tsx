@@ -24,8 +24,7 @@ function Intro() {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center p-4 w-full gap-8 max-w-[1000px] mx-auto overflow-hidden">
       <div className="flex flex-col gap-4">
-        <span className="font-medium text-4xl">This is my tag line.</span>
-        <p className="flex font-light max-w-[32rem]">
+        <p className="flex font-normal max-w-[32rem]">
           My name is Corey Lehman. I am a composer and software engineer who has a
           passion for problem solving and learning new things.<br/><br/>
 
