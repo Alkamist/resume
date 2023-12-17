@@ -156,8 +156,8 @@ function ProjectCard({ children, href, src, alt }: any) {
 
 function ProjectGrid({ children, title }: any) {
   return (
-    <div className="flex flex-col py-4 gap-8">
-      <h2 className="text-xl text-center bg-zinc-800">{title}</h2>
+    <div className="flex flex-col">
+      <h2 className="text-xl text-center">{title}</h2>
       <div className="flex mx-auto p-8 overflow-x-auto overflow-y-hidden w-full gap-8">
         {children}
       </div>
@@ -167,7 +167,7 @@ function ProjectGrid({ children, title }: any) {
 
 function Projects() {
   return (
-    <>
+    <div className="flex flex-col gap-8">
       <ProjectGrid title="Programming Projects">
         <ProjectCard href="/programmingProjects/theSphere" src="/theSphere.jpg" alt="The Sphere">
           Mix utility for The Sphere, Las Vegas
@@ -208,7 +208,7 @@ function Projects() {
           Covers of The Moody Blues<br/> for the Characterz movie
         </ProjectCard>
       </ProjectGrid>
-    </>
+    </div>
   )
 }
 
