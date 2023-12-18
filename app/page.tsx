@@ -35,7 +35,7 @@ function Intro() {
         </p>
       </div>
       <div className="flex grow justify-center">
-        <div className="bg-zinc-500 w-48 h-64 rounded" />
+        <Image className="rounded" src="/profilePic.jpg" alt="Profile Picture" width="192" height="256" unoptimized />
       </div>
     </div>
   )
@@ -56,7 +56,7 @@ function Tooltip({ children, tooltip }: any) {
 
 function ProgrammingLanguages() {
   return (
-    <div className="w-full bg-neutral-400 dark:bg-inherit">
+    <div className="w-full bg-gradient-to-t from-slate-500 to-slate-400 dark:bg-none">
       <div className="flex flex-col items-center md:items-start p-4 gap-4 overflow-hidden w-full max-w-[1000px] mx-auto">
         <span className="font-medium text-lg">Programming languages and frameworks I am proficient with:</span>
         <div className="w-full max-w-[32rem] p-4">
@@ -118,7 +118,7 @@ function ProgrammingLanguages() {
 
 function About() {
   return (
-    <div className="dark:bg-zinc-800 overflow-hidden">
+    <div className="dark:bg-gradient-to-t from-slate-800 to-slate-700 overflow-hidden">
       <div className="flex flex-col md:flex-row mx-auto max-w-[1000px] gap-6 p-4">
         <div className="md:w-1/2">
           <span className="font-bold text-lg">Formal Education</span>
@@ -146,7 +146,7 @@ function About() {
 function ProjectCard({ children, href, src, alt }: any) {
   return (
     <Link href={href}>
-      <motion.div className="w-[24rem] bg-neutral-400 dark:bg-zinc-800 rounded" whileHover={{ scale: 1.05 }}>
+      <motion.div className="w-[24rem] bg-slate-300 dark:bg-slate-800 rounded" whileHover={{ scale: 1.05 }}>
         <div className="relative w-full h-40">
           <Image className="object-cover rounded-t" src={src} alt={alt} fill></Image>
         </div>
@@ -199,17 +199,14 @@ function Projects() {
         <ProjectCard href="/musicProjects/villainCon" src="/villainCon.jpg" alt="Villain Con">
           Villain-Con Minion Blast at<br/> Universal Studios Orlando
         </ProjectCard>
-        <ProjectCard href="/" src="/" alt="">
-          Background Music for<br/> Universal Studios Orlando
+        <ProjectCard href="/musicProjects/backgroundMusic" src="/" alt="Background Music">
+          Shrek, Kung Fu Panda, and Trolls Background Music for<br/> Universal Studios
         </ProjectCard>
         <ProjectCard href="/musicProjects/oceanKingdom" src="/oceanKingdom4.jpg" alt="Ocean Kingdom">
           Chimelong Ocean Kingdom<br/> Lagoon Spectacular
         </ProjectCard>
         <ProjectCard href="/musicProjects/illuminariumSpace" src="/illuminariumSpace.jpg" alt="Illuminarium Space">
           Illuminarium Space Show
-        </ProjectCard>
-        <ProjectCard href="/musicProjects/characterz" src="/characterz3.jpg" alt="Characterz">
-          Covers of The Moody Blues<br/> for the Characterz movie
         </ProjectCard>
       </ProjectGrid>
     </div>
@@ -218,7 +215,7 @@ function Projects() {
 
 export default function Home() {
   return (
-    <div className="flex flex-col mx-auto gap-8">
+    <div className="flex flex-col mx-auto gap-8 bg-gradient-to-t from-slate-400 to-slate-300 dark:from-slate-900 dark:to-slate-800">
       <TopInfo />
       <Intro />
       <ProgrammingLanguages />

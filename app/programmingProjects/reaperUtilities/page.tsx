@@ -6,13 +6,13 @@ import ThemeSwitch from "../../themeSwitch";
 
 export default function() {
   return (
-    <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden">
+    <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden bg-gradient-to-t from-slate-400 to-slate-300 dark:from-slate-900 dark:to-slate-800">
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-center font-medium text-4xl">Compiled utilities, plugins, and<br/> Lua scripts for the Reaper DAW</h1>
         <ThemeSwitch />
         <TextLink href="/">Return to main page</TextLink>
       </div>
-      <div className="bg-neutral-400 dark:bg-zinc-800 p-8">
+      <div className="p-8">
         <p className="max-w-[36rem] mx-auto font-normal">
           As a modern composer, I use a digital audio workstation called <TextLink href="https://www.reaper.fm">Reaper</TextLink>.<br/><br/>
 
@@ -25,13 +25,13 @@ export default function() {
         </p>
       </div>
 
-      <h2 className="text-center bg-neutral-400 dark:bg-zinc-800 py-4">Zoom Tool</h2>
+      <h2 className="text-center bg-gradient-to-t from-slate-500 to-slate-400 dark:from-slate-800 dark:to-slate-700 py-4">Zoom Tool</h2>
       <p className="font-normal mx-auto max-w-[36rem] px-4">
         This script allows for using a single keybind to easily adjust the zoom level of the project.
       </p>
       <Image className="flex rounded mx-auto" src="/zoomToolDemo.gif" alt="Zoom Tool Demo" width="854" height="493" />
 
-      <h2 className="text-center bg-neutral-400 dark:bg-zinc-800 py-4">Region Items</h2>
+      <h2 className="text-center bg-gradient-to-t from-slate-500 to-slate-400 dark:from-slate-800 dark:to-slate-700 py-4">Region Items</h2>
       <p className="font-normal mx-auto max-w-[36rem] px-4">
         This script enables the user to encompass a region of items within the bounds of a single item.
         A keybind can then be pressed to copy and paste the contents and automation bounded by that item
@@ -42,7 +42,7 @@ export default function() {
       </p>
       <Image className="flex rounded mx-auto" src="/regionItemDemo.gif" alt="Region Item Demo" width="854" height="493" />
 
-      <h2 className="text-center bg-neutral-400 dark:bg-zinc-800 py-4">Pitch Correction</h2>
+      <h2 className="text-center bg-gradient-to-t from-slate-500 to-slate-400 dark:from-slate-800 dark:to-slate-700 py-4">Pitch Correction</h2>
       <p className="font-normal mx-auto max-w-[36rem] px-4">
         This is one of my most complicated scripts. Reaper allows Lua scripts to open a window and draw
         primitive shapes on it. By utilizing that functionality, I was able to build a pitch correction utility.<br/><br/>
@@ -63,7 +63,7 @@ export default function() {
         </video>
       </div>
 
-      <h2 className="text-center bg-neutral-400 dark:bg-zinc-800 py-4">Track Groups</h2>
+      <h2 className="text-center bg-gradient-to-t from-slate-500 to-slate-400 dark:from-slate-800 dark:to-slate-700 py-4">Track Groups</h2>
       <p className="font-normal mx-auto max-w-[36rem] px-4">
         Reaper not only allows you to write Lua scripts, but also create compiled DLL extensions.
         After a while, I became experienced enough to make my own.<br/><br/>

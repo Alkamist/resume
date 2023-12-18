@@ -6,13 +6,13 @@ import ThemeSwitch from "../../themeSwitch";
 
 export default function() {
   return (
-    <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden">
+    <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden bg-gradient-to-t from-slate-400 to-slate-300 dark:from-slate-900 dark:to-slate-800">
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-center font-medium text-4xl">Mix utility for The Sphere, Las Vegas</h1>
         <ThemeSwitch />
         <TextLink href="/">Return to main page</TextLink>
       </div>
-      <div className="bg-neutral-400 dark:bg-zinc-800 p-8">
+      <div className="p-8">
         <p className="max-w-[36rem] mx-auto font-normal">
           This project was contracted by the business VisibleSound, a consultant of the Madison Square Garden Company.<br/><br/>
 

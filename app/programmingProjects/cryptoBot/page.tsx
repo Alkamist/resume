@@ -5,13 +5,13 @@ import ThemeSwitch from "../../themeSwitch";
 
 export default function() {
   return (
-    <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden">
+    <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden bg-gradient-to-t from-slate-400 to-slate-300 dark:from-slate-900 dark:to-slate-800">
       <div className="flex flex-col justify-center items-center mx-auto max-w-[1000px] gap-2">
         <h1 className="text-center font-medium text-4xl">Functioning crypto arbitrage bot</h1>
         <ThemeSwitch />
         <TextLink href="/">Return to main page</TextLink>
       </div>
-      <div className="bg-neutral-400 dark:bg-zinc-800 p-8">
+      <div className="p-8">
         <p className="max-w-[36rem] mx-auto font-normal">
           Cryptocurrency has always been something that is interesting to me, and after discussing the concept of
           arbitrage with some friends, I decided to try to write a crypto bot to do this automatically.<br/><br/>
@@ -39,11 +39,11 @@ export default function() {
           What this means is that even though it is possible to create successful arbitrage transactions, if you are not
           colluding with these mining pools, your transactions will statistically be beaten enough of the time that you
           will not be profitable in the long run due to accumulating transaction fees when losing to other bots.<br/><br/>
-
-          A short write up of calculating the formula can be seen below:
         </p>
       </div>
       <p className="max-w-[48rem] mx-auto font-normal p-4">
+        A short write up of calculating the formula can be seen below:<br/><br/>
+
         - The number after each variable represents which pool it belongs to in the sequence.<br/>
         - The prime (') after a variable denotes that it is the version after the liquidity has been altered by the trade.<br/>
         - a represents input liquidity.<br/>
