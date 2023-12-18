@@ -7,7 +7,7 @@ import ThemeSwitch from "./themeSwitch";
 
 function TopInfo() {
   return (
-    <div className="flex mx-auto w-full max-w-[1000px] overflow-hidden p-4 gap-4">
+    <div className="flex mx-auto w-full max-w-[1000px] items-center overflow-hidden p-4 gap-2">
       <div className="flex flex-row justify-between items-center gap-8 w-full">
         <div>
           <h1 className="font-medium text-xl">Corey Lehman</h1>
