@@ -1,40 +1,10 @@
-import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
-// const ThemeSwitch = () => {
-//   const [mounted, setMounted] = useState(false)
-//   const { theme, setTheme } = useTheme()
-
-//   useEffect(() => {
-//     setMounted(true)
-//   }, [])
-
-//   if (!mounted) {
-//     return null
-//   }
-
-//   return (
-//     <select value={theme} onChange={e => setTheme(e.target.value)}>
-//       <option value="dark">Dark</option>
-//       <option value="light">Light</option>
-//     </select>
-//   )
-// }
-
 const ThemeSwitch = ({ spacingOnly }: any) => {
-  const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
   const toggleTheme = () => {
     theme === "dark" ? setTheme("light") : setTheme("dark")
-  }
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  if (!mounted) {
-    return null
   }
 
   return (
