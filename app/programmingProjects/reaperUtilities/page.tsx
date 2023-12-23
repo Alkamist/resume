@@ -4,7 +4,7 @@ import Image from "next/image";
 import TextLink from "../../textLink"
 import ThemeSwitch from "../../themeSwitch";
 
-export default function() {
+export default function ReaperUtilities() {
   return (
     <div className="flex flex-col gap-8 py-4 min-h-screen overflow-hidden bg-gradient-to-t from-slate-400 to-slate-300 dark:from-slate-900 dark:to-slate-800">
       <div className="flex flex-col items-center gap-2">
