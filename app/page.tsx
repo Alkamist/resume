@@ -12,9 +12,10 @@ function TopInfo() {
         <div>
           <h1 className="font-medium text-xl">Corey Lehman</h1>
           <h2 className="font-normal">Composer and Software Engineer based in Orlando, Florida</h2>
+          <span className="text-sm font-normal text-neutral-600 dark:text-neutral-300">• business.coreylehman@gmail.com</span>
         </div>
         <div className="flex gap-2">
-          <Link href="https://github.com/Alkamist">
+          <Link href="https://linkedin.com/in/corey-lehman-4308542a6">
             <svg className="fill-current h-6 w-6 rounded" viewBox="0 0 455 455" xmlns="http://www.w3.org/2000/svg">
               <g>
                 <path d="M246.4,204.35v-0.665c-0.136,0.223-0.324,0.446-0.442,0.665H246.4z"/>
