@@ -1,20 +1,10 @@
-import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
 const ThemeSwitch = ({ spacingOnly }: any) => {
-  const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
   const toggleTheme = () => {
     theme === "dark" ? setTheme("light") : setTheme("dark")
-  }
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  if (!mounted) {
-    return null
   }
 
   return (
@@ -23,13 +13,11 @@ const ThemeSwitch = ({ spacingOnly }: any) => {
         <input
           type="checkbox"
           className="sr-only peer"
-          checked={theme === "dark"}
+          checked={theme === "light"}
           readOnly
         />
         <div
-          onClick={() => {
-            toggleTheme()
-          }}
+          onClick={() => { toggleTheme() }}
           className="flex items-center px-[2px] w-11 h-6 bg-slate-500 rounded-full after:content-[''] after:absolute after:bg-white after:rounded-full after:w-5 after:h-5 peer-checked:after:translate-x-[20px] after:transition-all"
         />
       </label>
