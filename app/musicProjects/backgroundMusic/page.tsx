@@ -16,7 +16,7 @@ export default function BackgroundMusic() {
           In Universal Studios Orlando, there is a new project under development involving the
           DreamWorks IPs Shrek, Kung Fu Panda, and Trolls.<br/><br/>
 
-          With VisibleSound, I was tasked to create over 30 minutes of music involving a wide scope of genres,
+          Together with VisibleSound, we created over an hour of music involving a wide scope of genres,
           including EDM, Rock, Classical, and Traditional Chinese.
         </p>
       </div>

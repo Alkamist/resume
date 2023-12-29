@@ -13,7 +13,7 @@ export default function LongLostTales() {
       </div>
       <div className="p-8">
         <p className="max-w-[36rem] mx-auto font-normal">
-          I work closely with someone from VisibleSound on a lot of projects. Together, we decided to make an
+          I work closely with my cousin Alex Lehman on a lot of projects. Together, we decided to make an
           EP of Cinematic-style music to display our capabilities to clients.<br/><br/>
 
           There are six songs in total within the EP, showcasing a variety of styles that would typically be found

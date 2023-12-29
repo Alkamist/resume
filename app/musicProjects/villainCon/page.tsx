@@ -19,7 +19,7 @@ export default function VillainCon() {
           The guests are provided
           with blasters which they can fire at the various entities that appear on the screens in each room.<br/><br/>
 
-          I was contracted by VisibleSound to compose the music for the queue lines, as well as the ride itself.
+          I worked with VisibleSound to compose the music for the queue lines, as well as the ride itself.
           I also went on site to mix the audio.<br/><br/>
 
           The sound effects were handled by the game development team hired by Universal.

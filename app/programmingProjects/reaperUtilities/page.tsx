@@ -70,7 +70,7 @@ export default function ReaperUtilities() {
 
         These extensions are normally written in C++, but I was able to figure out on my own how to write them in <TextLink href="https://odin-lang.org">Odin</TextLink>.<br/><br/>
 
-        This project brings together many of the skills I know, and utilizes my<br/> <TextLink href="/programmingProjects/guiFramework">gui framework</TextLink> to open
+        This project brings together many of the skills I know, and utilizes my <TextLink href="/programmingProjects/guiFramework">gui framework</TextLink> to open
         an operating system window and assign it as a child to the main Reaper window, causing it to float on top.<br/><br/>
 
         The program was designed to make the very large track counts associated with composing cinematic scores more manageable.

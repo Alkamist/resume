@@ -31,7 +31,7 @@ export default function TheSphere() {
           diagram (on the right).
         </p>
       </div>
-      <Image className="rounded mx-auto" src="/channelSendsDemo.gif" alt="Channel Sends Demo" width="1034" height="541" />
+      <Image className="flex rounded mx-auto" src="/channelSendsDemo.gif" alt="Channel Sends Demo" width="1034" height="541" />
     </div>
   )
 }

@@ -11,7 +11,7 @@ function TopInfo() {
       <div className="flex flex-row justify-between items-center gap-8 w-full">
         <div>
           <h1 className="font-medium text-xl">Corey Lehman</h1>
-          <h2 className="font-normal">Composer and Software Engineer based in Orlando, Florida</h2>
+          <h2 className="font-normal">Software Engineer and Composer based in Orlando, Florida</h2>
           <span className="text-sm font-normal text-neutral-600 dark:text-neutral-300">• business.coreylehman@gmail.com</span>
         </div>
         <div className="flex gap-2">
@@ -43,11 +43,11 @@ function Intro() {
     <div className="flex flex-col md:flex-row justify-between items-center p-4 w-full gap-8 max-w-[1000px] mx-auto overflow-hidden">
       <div className="flex flex-col gap-4">
         <p className="flex font-medium max-w-[32rem]">
-          My name is Corey Lehman. I am a composer and software engineer who has a
+          My name is Corey Lehman. I am a software engineer and composer who has a
           passion for problem solving and learning new things.<br/><br/>
 
-          I am proficient in music production, sound design, as well as
-          software development using a variety of languages and frameworks.
+          I am proficient in software development using a variety of languages
+          and frameworks, as well as music production and sound design.
         </p>
       </div>
       <div className="flex grow justify-center">
@@ -151,7 +151,7 @@ function About() {
             After attending UCF, I decided to study music production and programming on my own.<br/><br/>
 
             This eventually led to me working with VisibleSound on a number of contracted projects.
-            These projects have involved musical composition, sound design, as well as programming.<br/><br/>
+            These projects have involved programming, musical composition, as well as sound design.<br/><br/>
           </p>
         </div>
       </div>
@@ -164,7 +164,7 @@ function ProjectCard({ children, href, src, alt }: any) {
     <Link href={href}>
       <motion.div className="w-[24rem] bg-slate-300 dark:bg-slate-800 rounded" whileHover={{ scale: 1.05 }}>
         <div className="relative w-full h-40">
-          <Image className="object-cover rounded-t" src={src} alt={alt} fill></Image>
+          <Image className="object-cover rounded-t" src={src} alt={alt} fill />
         </div>
         <div className="flex justify-center items-center w-full h-24 p-4 rounded-b">
           <p className="text-center">{children}</p>
