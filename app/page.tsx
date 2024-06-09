@@ -209,8 +209,8 @@ function Projects() {
         </ProjectCard>
       </ProjectGrid>
       <ProjectGrid title="Music Projects">
-        <ProjectCard href="/musicProjects/longLostTales" src="/longLostTales.jpg" alt="Long Lost Tales">
-          Long Lost Tales
+        <ProjectCard href="/musicProjects/alkamist" src="/alkamist.jpg" alt="Alkamist">
+          Alkamist
         </ProjectCard>
         <ProjectCard href="/musicProjects/villainCon" src="/villainCon.jpg" alt="Villain Con">
           Villain-Con Minion Blast at<br/> Universal Studios Orlando
